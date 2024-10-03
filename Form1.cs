@@ -10,6 +10,8 @@ namespace taller
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hola mundo");
+            int numero = 1;
+            MessageBox.Show($"El numero es: {numero}");
         }
     }
 }
